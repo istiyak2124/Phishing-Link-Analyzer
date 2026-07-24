@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 from backend.app.schemas.url_schema import URLRequest
 
+# VirusTotal Service
+from backend.app.services.virustotal_service import submit_url
+
+# URL Analysis Services
 from backend.app.services.url_service import (
     parse_url,
     check_https,
@@ -14,6 +18,7 @@ from backend.app.services.url_service import (
     check_suspicious_tld,
 )
 
+# Risk Engine
 from backend.app.services.risk_engine import (
     calculate_risk_score,
     get_verdict,
@@ -58,6 +63,11 @@ def analyze_url(data: URLRequest):
     multiple_subdomains = check_multiple_subdomains(parsed_data)
     shortened_url = check_shortened_url(parsed_data)
     suspicious_tld = check_suspicious_tld(parsed_data)
+
+    # Temporary VirusTotal Test
+    analysis_id = submit_url(str(data.url))
+
+    print("Analysis ID:", analysis_id)
 
     # Risk Engine
     risk_score = calculate_risk_score(
