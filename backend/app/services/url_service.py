@@ -43,7 +43,7 @@ def parse_url(url: str):
 
     return {
         "scheme": parsed_url.scheme,
-        "domain": parsed_url.netloc,
+        "domain": parsed_url.hostname,
         "path": parsed_url.path,
         "query": parsed_url.query,
     }
