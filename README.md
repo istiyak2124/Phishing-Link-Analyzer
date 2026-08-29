@@ -28,11 +28,20 @@ The application helps users quickly determine whether a website appears safe, su
 ---
 
 ## 📸 Preview
+
+### Homepage
+
 ![Phishing Link Analyzer Homepage](screenshots/homepage.png)
 
+### Safe URL Detection
+![Safe URL Detection](<Screenshot 2026-08-28 005209-1.png>)
 
+### Suspicious URL Detection
+![Suspicious URL Detection](<Screenshot 2026-08-28 005029-1.png>)
 
-
+### Phishing URL Detection
+![Phishing URL Detection](<Screenshot 2026-08-28 004528-2.png>)
+![Phishing URL Detections](<Screenshot 2026-08-28 003711.png>)
 ---
 
 ## 🛠️ Tech Stack
