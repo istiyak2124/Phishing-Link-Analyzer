@@ -28,20 +28,25 @@ The application helps users quickly determine whether a website appears safe, su
 ---
 
 ## 📸 Preview
+## 📸 Preview
 
-### Homepage
+### 🏠 Homepage
 
 ![Phishing Link Analyzer Homepage](screenshots/homepage.png)
 
-### Safe URL Detection
-![Safe URL Detection](<Screenshot 2026-08-28 005209-1.png>)
+### 🟢 Safe URL Detection
 
-### Suspicious URL Detection
-![Suspicious URL Detection](<Screenshot 2026-08-28 005029-1.png>)
+![Safe URL Detection](screenshots/Screenshot%202026-08-28%20005209.png)
 
-### Phishing URL Detection
-![Phishing URL Detection](<Screenshot 2026-08-28 004528-2.png>)
-![Phishing URL Detections](<Screenshot 2026-08-28 003711.png>)
+### 🟡 Suspicious URL Detection
+
+![Suspicious URL Detection](screenshots/Screenshot%202026-08-28%20005029.png)
+
+### 🔴 Phishing URL Detection
+
+![Phishing URL Detection](screenshots/Screenshot%202026-08-28%20004528.png)
+
+![Phishing URL Detection](screenshots/Screenshot%202026-08-28%20003711.png)
 ---
 
 ## 🛠️ Tech Stack
@@ -111,7 +116,7 @@ Phishing-Link-Analyzer/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/Phishing-Link-Analyzer.git
+git clone https://github.com/istiyak2124/Phishing-Link-Analyzer.git
 ```
 
 ### 2. Navigate to the Project
@@ -218,7 +223,6 @@ This project is licensed under the MIT License.
 
 Cyber Security Student
 
-GitHub: https://github.com/istiyak2124/
 
 ---
 
