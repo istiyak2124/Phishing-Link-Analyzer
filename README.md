@@ -28,7 +28,11 @@ The application helps users quickly determine whether a website appears safe, su
 ---
 
 ## 📸 Preview
-![alt text](image.png)
+![alt text](<Screenshot 2026-08-28 004528-1.png>)
+![alt text](<Screenshot 2026-08-28 005209.png>)
+![alt text](<Screenshot 2026-08-28 005029.png>)
+![alt text](<Screenshot 2026-08-28 004528.png>)
+![alt text](<Screenshot 2026-08-28 005553.png>)
 
 > Add screenshots of the application here.
 
@@ -215,7 +219,7 @@ This project is licensed under the MIT License.
 
 Cyber Security Student
 
-GitHub: https://github.com/YOUR_GITHUB_USERNAME
+GitHub: https://github.com/istiyak2124/
 
 ---
 
